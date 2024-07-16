@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #3F51B5; /* Warna latar belakang */
+    color: white; /* Warna teks */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    table-layout: auto;
+    background-color: white;
+    color: black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+a {
+    color: green;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    th, td {
+        display: block;
+        width: 100%;
+    }
+    th {
+        display: none;
+    }
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #536DFE;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: #303F9F;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+}
