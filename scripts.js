@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
         popup.style.backgroundColor = '#455A64';
         popup.style.color = 'white';
         popup.style.padding = '20px';
-        popup.innerHTML = '<h2>Tentang RPMP MCPE!</h2><p>Website ini dibuat untuk mendownload file marketplace mcpe secara GRATIS, hanya membutuhkan sedikit usaha saja untuk melewati link iklan. Kalian bisa REQUEST addon/texture pack dll.</p><p>DUKUNG Admin dengan cara tidak menggunakan adblocker saat mengunduh file.<p>DILARANG mengupload file (dan membagikan website ini) yang ada diwebsite ini ke Youtube atau manapun karena berpotensi copyright, jika admin melihat salah satu resource pack diupload ke YouTube maka link akan dimatikan.</p><p>Web masih dalam tahap pengembangan dan akan terus dikembangkan, silahkan laporkan bug jika ada.</p><button class="btn" onclick="closePopup()">Tutup</button>';
+        popup.innerHTML = '<h2>Tentang RPMP MCPE!</h2><p>Website ini dibuat untuk mendownload file marketplace mcpe secara GRATIS, hanya membutuhkan sedikit usaha saja untuk melewati link iklan. Kalian bisa REQUEST addon/texture pack dll.</p><p>DUKUNG Admin dengan cara tidak menggunakan adblocker saat mengunduh file.</p><p>DILARANG mengupload file (termasuk membagikan website ini) yang ada diwebsite ini ke Youtube atau manapun karena berpotensi copyright, jika admin melihat salah satu resource pack diupload ke YouTube maka link akan dimatikan.</p><p>Web masih dalam tahap pengembangan dan akan terus dikembangkan, silahkan laporkan bug jika ada.</p><button class="btn" onclick="closePopup()">Tutup</button>';
         document.body.appendChild(popup);
         popup.showModal();
     });
